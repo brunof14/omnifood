@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #fff;
+  --primary: #e67e22;
+  --light-200: #fdf2e9;
+  --light-300: #fae5d3;
+  --light-500: #eb984e;
+
+  --dark-600: #45260a;
+  --dark-300: #cf711f;
+
+  --gray-700: #333;
+  --gray-600: #555;
+  --gray-500: #6f6f6f;
+  --gray-400: #767676;
+  --gray-300: #888;
+  --gray-200: #ddd;
+  --gray-100: #eee;
+
+  --border-radius: 9px;
+  --border-radius-medium: 11px;
+
+  --line-height: 1;
+  --line-height-small: 1.05;
+  --line-height-medium: 1.2;
+  --line-height-paragraph: 1.6;
+  --line-height-large: 1.8;
+
+  --tag-vegetarian: #51cf66;
+  --tag-vegan: #94d82d;
+  --tag-paleo: #ffd43b;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--gray-600);
+  line-height: var(--line-height);
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+p {
+  line-height: var(--line-height-paragraph);
+  font-size: 1.8rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+body,
+input,
+button,
+select {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+input,
+button,
+select {
+  border: none;
+}
