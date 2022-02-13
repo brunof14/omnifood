@@ -1058,6 +1058,23 @@ select {
 
 /* 544px */
 @media (max-width: 34rem) {
+  .hero-buttons-cta {
+    flex-direction: column;
+  }
+
+  .delivered-meals {
+    flex-direction: column;
+  }
+
+  .logos {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .section-how {
+    padding: 5.2rem 0 9.6rem;
+  }
+
   .grid {
     row-gap: 4.8rem;
   }
