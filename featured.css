@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.section-featured .logos img {
+.logos img {
   height: 3.2rem;
   filter: brightness(0);
   opacity: 0.5;

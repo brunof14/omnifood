@@ -39,11 +39,13 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   color: var(--gray-600);
   line-height: var(--line-height);
+  overflow-x: hidden;
 }
 
 button {
